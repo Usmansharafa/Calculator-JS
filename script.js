@@ -6,20 +6,17 @@ z = Number(z);
 switch(y){
   case "+":
     answer = x + z;
-    alert(answer);
     break;
   case "-":
     answer = x - z;
-    alert(answer);
     break;
   case "/":
     answer = x / z;
-    alert(answer);
     break;
   case "*":
     answer = x * z;
-    alert(answer);
     break;
   default:
-    alert("Operation cannot be performed")
+    answer = "Operation cannot be performed"
 }
+alert(answer);
